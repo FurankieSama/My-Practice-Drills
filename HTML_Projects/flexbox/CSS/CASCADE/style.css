@@ -1,0 +1,19 @@
+/* TESTING AND TRUELY LEARNING ABOUT CSS CASCADE */
+#subsection {
+  background-color: yellow;
+  color: blue;
+}
+
+/* USING SPECIFITY TO OVERRIDE THE FIRST RULE. ALSO, IT'S A DESCENDANT COMBINATOR  */
+.main #subsection {
+  color: red;
+}
+
+/* CHECKING HOW PROPERTIES CASCADE USING CSS */
+#parent {
+  color: red;
+}
+
+.child {
+  color: blue;
+}
